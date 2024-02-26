@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(114, 139, 128, 0.544);
+    color: lightslategray;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#board {
+    width: 608px;
+    height: 608px;
+    background-color: rgba(176, 196, 222, 0.192);
+    border: 5px solid lightslategrey;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 199px;
+    height: 199px;
+    border: 0.5px solid lightslategrey;
+}
+
+.btnBox {
+    position: absolute;
+    left: 150px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.btnBox button {
+    width: 100px;
+    height: 40px;
+    padding: 2px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.51);
+
+    border: none;
+
+}
+
+.insideBox {
+    position: absolute;
+    left: 41%;
+    top: 43%;
+    color: rgba(119, 136, 153, 0.407);
+}
+
+.reset {
+    background-color: rgba(255, 196, 118, 0.331);
+    border: none;
+    border-radius: 30px;
+    padding: 8px;
+    color: rgba(255, 255, 255, 0.226);
+    font-size: 15px;
+
+}
+
+.reset:hover {
+    border: 0.8px solid white;
+    color: white
+}
